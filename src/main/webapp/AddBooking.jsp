@@ -1,0 +1,25 @@
+<html>
+<body>
+
+<center>
+    <h1>Enter Booking details here</h1>>
+    <form action="BookingServlet" method="post">
+        Enter Booking Date :
+        <input type="date" name="date"><hr>
+        Enter Token Amount :
+        <input type="number" name="amount"><hr>
+        Enter Customer ID :
+        <input type="number" name="customerid"><hr>
+        Enter Model Id :
+        <input type="number" name="modelid"><hr>
+        Enter Expected delivery time :
+        <input type="date" name="deliverytime"><hr>
+
+        <input type="submit" value="SUBMIT"><input type="reset" value="RESET">
+    </form>
+
+
+</center>
+
+</body>
+</html>
